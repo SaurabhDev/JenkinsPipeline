@@ -10,8 +10,8 @@ node ('master'){
   def JMET_TESTING   = params.JMETER_TESTING
 
   Generic {
-    JAVA_HOME        = "C:\Program Files\Java\jdk1.8.0_101"
-    MAVEN_HOME       = "C:\apache-maven-3.3.9"
+    JAVA_HOME        = "C:/Program Files/Jav/jdk1.8.0_101"
+    MAVEN_HOME       = "C:/apache-maven-3.3.9"
     EXEC_UNIT_TESTS  = RUN_UNIT_TESTS
     EXEC_SONAR       = RUN_SONAR
     EXEC_FUNC_TESTS  = RUN_FUNC_TESTS
